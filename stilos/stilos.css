@@ -65,8 +65,34 @@ line-height: 35px;
 
 }
 
+/*transisiones*/
 
+.header__nav__menu__link{
+    padding: 15px;
+}
+.header__nav__menu__link:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
 
+.text__link:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+    font-style:15px
+}
+.footer__nav__menu__link{
+    padding: 15px;
+}
+.footer__nav__menu__link:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+    font-style:15px
+}
+
+ 
 /* CONTENEDOR */
 
 .main-card{
