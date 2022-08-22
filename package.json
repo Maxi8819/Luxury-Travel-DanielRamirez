@@ -1,0 +1,25 @@
+{
+  "name": "danielramirez---grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/index.scss boost-stilos/translated.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxi8819/Luxury-Travel-DanielRamirez.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxi8819/Luxury-Travel-DanielRamirez/issues"
+  },
+  "homepage": "https://github.com/Maxi8819/Luxury-Travel-DanielRamirez#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

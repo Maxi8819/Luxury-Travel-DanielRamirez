@@ -71,7 +71,7 @@ a {
 }
 
 
-.change-colour:hover {
+.card__change-colour:hover {
     padding: 30px;
     background-color: #C5C9CD;
     color: white;
