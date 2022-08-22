@@ -8,28 +8,31 @@ body {
     ul {
         list-style-type: none;
     }
+
     a {
         text-decoration: none;
         font-size: 1rem;
         color: black;
     }
 
-    .header__nav {
-        display: flex;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-around;
+    gap: 1rem;
+
+    .header__logo {
+        display: block;
         align-items: center;
-        margin-top: 2rem;
-        justify-content: space-around;
-        gap: 1rem;
-    
-        .header__logo {
-            display: block;
-            align-items: center;
-            max-width: 25rem;
-            min-width: 22rem;
-        }
-    
-        
-        .header__nav__menu {
+        max-width: 25rem;
+        min-width: 22rem;
+    }
+
+
+    .header__nav__menu {
         display: flex;
         align-items: center;
         gap: 2rem;
@@ -37,51 +40,57 @@ body {
         font-weight: 400;
         font-size: 30px;
         line-height: 35px;
+
         .header__nav__menu__link {
             padding: 15px;
-            }
+        }
+
         .header__nav__menu__link:hover {
             background-color: #C5C9CD;
             color: white;
             transition: all 0.5s;
-            }
         }
     }
+}
 
-    .contenedor {
-        margin-top: 50px;
-        padding: 80px;
-        animation: atenuacion 8s infinite;
-        font-family: 'Monoton';
+.contenedor {
+    margin-top: 50px;
+    padding: 80px;
+    animation: atenuacion 8s infinite;
+    font-family: 'Monoton';
+}
+
+.cards {
+    margin-top: 80px;
+}
+
+.card__change-colour:hover {
+    padding: 60px;
+    background-color: #C5C9CD;
+    color: white;
+    transition: all 0.5s;
+
+    .title_art {
+        font-family: 'Quicksand', sans-seri
     }
 
-    .cards {
-        margin-top: 80px;
+    .text__link:hover {
+        padding: 10px;
+        background-color: #C5C9CD;
+        color: white;
+        transition: all 0.5s;
     }
-        .card__change-colour:hover {
-            padding: 30px;
-            background-color: #C5C9CD;
-            color: white;
-            transition: all 0.5s;
-            .title_art {
-                font-family: 'Quicksand', sans-seri
-            }
-            .text__link:hover {
-                padding: 10px;
-                background-color: #C5C9CD;
-                color: white;
-                transition: all 0.5s;
-            }
-            .paragraph_art {
-                font-size: small;
-                font-family: 'Quicksand', sans-seri
-            }
-        
-        }
-        
-    /*FOOTER*/
 
-footer{
+    .paragraph_art {
+        font-size: small;
+        font-family: 'Quicksand', sans-seri
+    }
+
+}
+
+/*FOOTER*/
+
+footer {
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -98,7 +107,7 @@ footer{
             max-width: 25rem;
             min-width: 22rem;
         }
-        
+
         .footer__nav__menu {
             display: flex;
             align-items: center;
@@ -108,26 +117,23 @@ footer{
             font-size: 20px;
             line-height: 35px;
 
-            .footer__nav__menu__link{
+            .footer__nav__menu__link {
                 padding: 15px;
             }
-            .footer__nav__menu__link:hover{
-                background-color:#C5C9CD;
+
+            .footer__nav__menu__link:hover {
+                background-color: #C5C9CD;
                 color: white;
                 transition: all 0.5s;
-                font-style:15px
+                font-style: 15px
             }
         }
     }
-    
+
 }
 
 
 
-
-
-    
-}
 
 
 
@@ -158,9 +164,10 @@ footer{
 
 @media (max-width:960px) {
 
-    .contenedor{
+    .contenedor {
         font-size: 45px;
     }
+
     .header__nav__menu {
         flex-direction: column;
     }
@@ -172,25 +179,22 @@ footer{
     .cards {
         margin-top: 100px;
     }
- 
-    .footer__nav__menu{
+
+    .footer__nav__menu {
         flex-direction: column;
     }
-    .formulario{
+
+    .formulario {
         flex-direction: column;
     }
 }
+
 @media (max-width:540px) {
-    .header__nav{
+    .header__nav {
         flex-direction: column;
     }
-    .footer__nav{
+
+    .footer__nav {
         flex-direction: column;
     }
 }
-
-
-
-
-
-
