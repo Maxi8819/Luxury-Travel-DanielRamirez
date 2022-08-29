@@ -1,0 +1,47 @@
+/*FOOTER*/
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .footer__nav {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+        justify-content: space-around;
+        gap: 1rem;
+
+        .footer__logo {
+            display: block;
+            align-items: center;
+            max-width: 25rem;
+            min-width: 22rem;
+        }
+
+        .footer__nav__menu {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 35px;
+
+            .footer__nav__menu__link {
+                padding: 15px;
+            }
+
+            .footer__nav__menu__link:hover {
+                background-color: #C5C9CD;
+                color: white;
+                transition: all 0.5s;
+                font-style: 15px
+            }
+        }
+    }
+
+}
+
+
+
+
