@@ -105,19 +105,19 @@ footer {
 .cards {
   margin-top: 80px; }
 
-.card__change-colour:hover {
+.card__change-colour:hover, .fondo--dubai:hover, .fondo--europa:hover, .fondo--maldivas:hover, .fondo--cataratas:hover, .fondo--glaciares:hover, .fondo--salta:hover {
   padding: 60px;
   background-color: #C5C9CD;
   color: white;
   transition: all 0.5s; }
-  .card__change-colour:hover .title_art {
+  .card__change-colour:hover .title_art, .fondo--dubai:hover .title_art, .fondo--europa:hover .title_art, .fondo--maldivas:hover .title_art, .fondo--cataratas:hover .title_art, .fondo--glaciares:hover .title_art, .fondo--salta:hover .title_art {
     font-family: 'Quicksand', sans-seri; }
-  .card__change-colour:hover .text__link:hover {
+  .card__change-colour:hover .text__link:hover, .fondo--dubai:hover .text__link:hover, .fondo--europa:hover .text__link:hover, .fondo--maldivas:hover .text__link:hover, .fondo--cataratas:hover .text__link:hover, .fondo--glaciares:hover .text__link:hover, .fondo--salta:hover .text__link:hover {
     padding: 10px;
     background-color: #C5C9CD;
     color: white;
     transition: all 0.5s; }
-  .card__change-colour:hover .paragraph_art {
+  .card__change-colour:hover .paragraph_art, .fondo--dubai:hover .paragraph_art, .fondo--europa:hover .paragraph_art, .fondo--maldivas:hover .paragraph_art, .fondo--cataratas:hover .paragraph_art, .fondo--glaciares:hover .paragraph_art, .fondo--salta:hover .paragraph_art {
     font-size: small;
     font-family: 'Quicksand', sans-seri; }
 
@@ -125,6 +125,15 @@ footer {
   margin-top: 30px;
   margin-left: 75px;
   font-family: 'Quicksand', sans-seri; }
+
+.fondo--dubai:hover {
+  background-color: #C4C4C4; }
+
+.fondo--europa:hover {
+  background-color: #A1A3A5; }
+
+.fondo--maldivas:hover {
+  background-color: #84898E; }
 
 .cards {
   margin-top: 80px; }
@@ -138,6 +147,15 @@ footer {
   margin-top: 30px;
   margin-left: 75px;
   font-family: 'Quicksand', sans-seri; }
+
+.fondo--cataratas:hover {
+  background-color: #C4C4C4; }
+
+.fondo--glaciares:hover {
+  background-color: #A1A3A5; }
+
+.fondo--salta:hover {
+  background-color: #84898E; }
 
 .cards {
   margin-top: 80px; }

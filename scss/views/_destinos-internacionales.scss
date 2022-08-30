@@ -1,22 +1,30 @@
-
 .title_arts {
-    margin-top: 30px;
+    @include margin(30px);
     margin-left: 75px;
     font-family: 'Quicksand', sans-seri
 }
 
+$internacionales:(
+    dubai :#C4C4C4,
+    europa:#A1A3A5,
+    maldivas :#84898E
+) ;
 
-
-
+ @each $pais,$color in $internacionales {
+    .fondo--#{$pais}:hover{
+        @extend.card__change-colour; 
+        background-color:$color
+        
+    }
+ }
 .cards {
-    margin-top: 80px;
+    @include margin(80px);
     .title_art {
         font-family: 'Quicksand', sans-seri
     }
     .paragraph_art {
         font-size: small;
-        font-family: 'Quicksand', sans-seri
-       
+        font-family: 'Quicksand', sans-seri ;  
         
     }
     

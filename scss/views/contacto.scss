@@ -8,7 +8,7 @@
         width: 50rem;
         margin: auto;
         background: white;
-        margin-top: 3rem;
+        @include margin(3rem);
         border: none;
         border-bottom: 5px dashed #C5C9CD;;
         outline: none;
@@ -16,7 +16,7 @@
         color: black; 
     }
     .send{
-        margin-top: 30px;
+        @include margin(30px);
         padding: 1rem;
         background-color: #C5C9CD;
         color: aliceblue;

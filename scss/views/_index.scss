@@ -2,7 +2,8 @@
 
 
 .contenedor {
-    margin-top: 50px;
+    
+    @include margin(50px);
     padding: 80px;
     animation: atenuacion 8s infinite;
     font-family: 'Monoton';

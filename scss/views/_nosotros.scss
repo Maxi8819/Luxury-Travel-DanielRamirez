@@ -1,5 +1,5 @@
 .cards {
-    margin-top: 80px;
+    @include margin(80px);
     .title_art {
         font-family: 'Quicksand', sans-seri
     }

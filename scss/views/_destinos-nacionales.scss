@@ -1,12 +1,28 @@
 
 .title_arts {
-    margin-top: 30px;
+    @include margin(30px);
     margin-left: 75px;
     font-family: 'Quicksand', sans-seri
 }
 
+
+$nacionales:(
+    cataratas:#C4C4C4,
+    glaciares:#A1A3A5,
+    salta:#84898E
+) ;
+
+ @each $pais,$color in $nacionales {
+    .fondo--#{$pais}:hover{
+        @extend.card__change-colour;
+        background-color: $color;
+    }
+ }
+
+
+
 .cards {
-    margin-top: 80px;
+    @include margin(80px);
     .title_art {
         font-family: 'Quicksand', sans-seri
     }
